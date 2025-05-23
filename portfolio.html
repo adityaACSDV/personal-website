@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #FFFFE4;
+      font-family: "retro-font", Geneva, sans-serif;
+      color: black;
+      overflow: hidden;
+    }
+
+    .desktop {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .icon {
+      width: 60px;
+      text-align: center;
+      margin: 10px;
+      display: inline-block;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .icon:hover {
+      opacity: 0.5;
+      text-decoration: underline;
+    }
+
+    .icon img {
+      width: 48px;
+      height: 48px;
+      display: block;
+      margin: 0 auto 5px;
+    }
+
+    .taskbar {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      background-color: #c0c0c0;
+      border-top: 2px solid #fff;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .start-button {
+      background-color: #c0c0c0;
+      border: 2px outset white;
+      padding: 4px 8px;
+      margin-right: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .start-button:hover {
+      background-color: darkgray;
+    }
+
+    .taskbar-icons img {
+      width: 24px;
+      height: 24px;
+      margin: 0 5px;
+    }
+    
+    @font-face {
+    font-family:"retro-font";
+    src: url("prstartk.ttf") format("truetype");
+    }
+
+  </style>
+</head>
+<body>
+  <div class="desktop">
+    <a class="icon" href="CV.pdf" target="_blank">
+      <?xml version="1.0" encoding="UTF-8"?><svg id="File_Import" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+        <polygon points="1 15 1 13 12 13 12 8 13 8 13 9 14 9 14 10 15 10 15 11 16 11 16 12 17 12 17 13 18 13 18 15 17 15 17 16 16 16 16 17 15 17 15 18 14 18 14 19 13 19 13 20 12 20 12 15 1 15"/><polygon points="23 6 23 22 22 22 22 23 7 23 7 22 6 22 6 16 8 16 8 21 21 21 21 8 16 8 16 3 8 3 8 12 6 12 6 2 7 2 7 1 18 1 18 2 19 2 19 3 20 3 20 4 21 4 21 5 22 5 22 6 23 6"/></svg>
+      <div style="font-size: 10px;
+                  color: black;">resume</div>
+    </a>
+    <a class="icon" href="https://github.com/adityaACSDV" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+        <polygon points="23 9 23 15 22 15 22 17 21 17 21 19 20 19 20 20 19 20 19 21 18 21 18 22 16 22 16 23 15 23 15 18 14 18 14 17 15 17 15 16 17 16 17 15 18 15 18 14 19 14 19 9 18 9 18 6 16 6 16 7 15 7 15 8 14 8 14 7 10 7 10 8 9 8 9 7 8 7 8 6 6 6 6 9 5 9 5 14 6 14 6 15 7 15 7 16 9 16 9 18 7 18 7 17 6 17 6 16 4 16 4 17 5 17 5 19 6 19 6 20 9 20 9 23 8 23 8 22 6 22 6 21 5 21 5 20 4 20 4 19 3 19 3 17 2 17 2 15 1 15 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 19 3 19 4 20 4 20 5 21 5 21 7 22 7 22 9 23 9"/>
+      </svg>
+      <div style="font-size: 10px;
+                  color: black;">GitHub</div>
+    </a>
+    
+    <a class="icon" href="https://www.linkedin.com/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="#0A66C2">
+        <path d="m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-9,10v8h-3v-11h3v1h1v-1h4v1h1v10h-3v-8h-3Zm-9-4v-3h3v3h-3Zm3,1v11h-3v-11h3Z"/>
+      </svg>
+      <div style="font-size: 10px;
+                  color: black;">linkedin</div>
+    </a>
+  </div>
+
+  <div class="taskbar">
+    <div class="start-button">Menu</div>
+    <div class="taskbar-icons">
+      <!-- Icons will be added later -->
+    </div>
+  </div>
+</body>
+</html>
